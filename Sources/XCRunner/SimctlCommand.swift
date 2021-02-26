@@ -16,5 +16,4 @@ public enum SimctlCommand {
     }
     
     var executable: String { "xcrun simctl \(stringified)" }
-
 }
