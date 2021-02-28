@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Added case for openURL command
+
 ## [0.0.1] - 2021-02-26
 
 ### Added
