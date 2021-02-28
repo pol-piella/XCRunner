@@ -8,10 +8,12 @@
 public enum SimctlCommand {
     // TODO:- Map the rest of commands from `simctl` API
     case push(device: String, identifier: String, filePath: String)
+    case openURL(device: String, url: String)
     
     var stringified: String {
         switch self {
         case let .push(device, identifier, filePath): return "push \(device) \(identifier) \(filePath)"
+        case let .openURL(device, url): return "openURL \(device) \(url)"
         }
     }
     
